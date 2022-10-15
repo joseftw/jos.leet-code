@@ -18,7 +18,7 @@ public class ZigzagConversionTests
     [InlineData("A", 1, "A")]
     public void ShouldSolveExamples(string s, int numRows, string expected)
     {
-        var result = _sut.Convert(s, numRows);
+        var result = _sut.Execute(s, numRows);
         
         result.ShouldBe(expected);
     }

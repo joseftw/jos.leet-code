@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +9,7 @@ namespace JOS.LeetCode;
 /// </summary>
 public class ZigzagConversion
 {
-    public string Convert(string s, int numRows)
+    public string Execute(string s, int numRows)
     {
         if (numRows == 1)
         {
